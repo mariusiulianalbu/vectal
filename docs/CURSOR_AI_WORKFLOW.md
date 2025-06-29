@@ -5,10 +5,11 @@
 ## 📋 REGULI ABSOLUTE - NU UITA NICIODATĂ!
 
 ### 🔴 LA ÎNCEPUTUL ORICĂRUI CHAT NOU:
-1. **CITEȘTE PRIMUL** acest fișier (`docs/CURSOR_AI_WORKFLOW.md`)
+1. **CITEȘTE PRIMUL** `docs/CURSOR_AI_ULTRA_RULES.md` - REGULI STRICTE!
 2. **VERIFICĂ** `docs/PROJECT_STATUS.md` pentru progres
 3. **ANALIZEAZĂ** `docs/TECH_STACK.md` pentru tehnologii
 4. **CONSULTĂ** `docs/IMPLEMENTATION_PLAN.md` pentru planul curent
+5. **CITEȘTE** `docs/CHANGES.md` pentru ultimele modificări
 
 ### ⚡ WORKFLOW OBLIGATORIU PENTRU ORICE TASK:
 

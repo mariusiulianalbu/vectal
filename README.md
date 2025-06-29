@@ -15,10 +15,11 @@
 ### 🔴 IMPORTANT: Pentru Cursor AI
 Dacă deschizi un chat nou cu mine, **ÎNTOTDEAUNA** citește prima dată:
 
-1. **`docs/CURSOR_AI_WORKFLOW.md`** - Workflow-ul complet
-2. **`docs/PROJECT_STATUS.md`** - Progresul curent
-3. **`docs/TECH_STACK.md`** - Stack tehnologic aprobat
-4. **`docs/IMPLEMENTATION_PLAN.md`** - Planul detaliat
+1. **`docs/CURSOR_AI_ULTRA_RULES.md`** - 🚨 REGULI STRICTE OBLIGATORII!
+2. **`docs/CURSOR_AI_WORKFLOW.md`** - Workflow-ul complet
+3. **`docs/PROJECT_STATUS.md`** - Progresul curent
+4. **`docs/TECH_STACK.md`** - Stack tehnologic aprobat
+5. **`docs/IMPLEMENTATION_PLAN.md`** - Planul detaliat
 
 **Nu începe niciun task fără să citești aceste fișiere!**
 
