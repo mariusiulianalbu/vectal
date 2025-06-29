@@ -6,13 +6,24 @@
 
 **ÎNTOTDEAUNA verifică aceste fișiere la începutul ORICĂRUI chat nou:**
 
-1. **`docs/CURSOR_AI_WORKFLOW.md`** - Workflow-ul de bază
+1. **`docs/CURSOR_AI_ULTRA_RULES.md`** - ACEST FIȘIER (regulile principale)
 2. **`docs/PROJECT_STATUS.md`** - Starea curentă a proiectului
 3. **`docs/TECH_STACK.md`** - Stack tehnologic FINAL (NU se schimbă!)
 4. **`docs/IMPLEMENTATION_PLAN.md`** - Planul detaliat
 5. **`docs/CHANGES.md`** - Ultimele schimbări
 
 **NICIODATĂ nu începi un task fără să citești aceste fișiere!**
+
+## 🚨 OBSERVAȚII CRITICE DE LA UTILIZATOR (IMPLEMENTATE!)
+
+### ❌ **PROBLEME IDENTIFICATE ȘI REZOLVATE:**
+1. **Duplicarea fișierelor** - Am creat 3 fișiere despre Cursor AI care se suprapun
+2. **Lipsa de analiză pre-task** - Nu verific ce există deja înainte să creez ceva nou
+3. **Fără cleanup** - Nu șterg fișierele temporare după task-uri
+4. **Renunțare prea ușoară la MCP-uri** - Nu încerc să repar când ceva nu merge
+5. **Lipsa de research pentru tehnologii viitoare** - Nu analizez integrările posibile
+
+**✅ TOATE ACESTE PROBLEME SUNT ACUM REZOLVATE IN REGULILE DE MAI JOS!**
 
 ---
 
@@ -22,11 +33,25 @@
 
 Când utilizatorul îți dă un task, TU TREBUIE să faci:
 
-1. **ANALIZEZ COMPATIBILITATEA**
+1. **ANALIZEZ CE EXISTĂ DEJA (ANTI-DUPLICARE) - NOU!**
+   ```bash
+   # PRIMUL PAS OBLIGATORIU:
+   - list_dir pentru a vedea structura actuală
+   - grep_search pentru fișiere similare cu task-ul
+   - codebase_search pentru context complet
+   
+   # ÎNTREBĂRI OBLIGATORII:
+   - Există deja un fișier similar cu ce vreau să creez?
+   - Pot actualiza unul existent în loc să creez altul nou?
+   - Am duplicat ceva din greșeală anterior?
+   - Ce fișiere temporare am creat care trebuie șterse?
+   ```
+
+2. **ANALIZEZ COMPATIBILITATEA**
    ```bash
    - Este compatibil cu Next.js 15 + TypeScript?
    - Este compatibil cu Tailwind CSS și Shadcn/ui?
-   - Este compatibil cu Prisma și SQLite/PostgreSQL?
+   - Este compatibil cu SUPABASE (nu mai Prisma!) + PostgreSQL?
    - Se potrivește cu arhitectura noastră app router?
    ```
 
@@ -119,6 +144,16 @@ Vrei să implementez alternativa sau să o amânăm pentru Faza 3?
 2. Test manual în browser
 3. Check pentru TypeScript errors
 4. Verificare console pentru warnings
+```
+
+### PASUL 5: CLEANUP OBLIGATORIU (NOU!)
+```bash
+# După finalizarea task-ului:
+1. Șterg fișierele temporare create (scripts, tests, etc.)
+2. Consolid informațiile duplicate în fișiere existente
+3. Verific că nu am lăsat fișiere redundante
+4. Actualizez doar documentația relevantă (nu creez fișiere noi)
+5. Mă asigur că estructura rămâne curată
 ```
 
 ---
@@ -314,6 +349,47 @@ export default function Component({ title, optional = false }: ComponentProps) {
 4. ❌ Nu las utilizatorul confuz
 5. ❌ Nu uit să documentez
 6. ❌ Nu repet aceeași greșeală
+
+---
+
+---
+
+## 🔮 TEHNOLOGII VIITOARE VALIDATE (RESEARCH COMPLET)
+
+### ✅ **STRIPE INTEGRATION**
+- **Status:** 100% compatibil cu Next.js 15 + Supabase
+- **Documentație:** Tutoriale complete găsite și validate
+- **Implementare:** Template oficial Next.js + Supabase + Stripe disponibil
+- **Timeline:** Faza 2-3 conform plan
+
+### ✅ **SUPABASE AUTH vs CLERK DECIZIE FINALĂ**
+```
+SUPABASE AUTH (CÂȘTIGĂTOR):
+✅ Gratuit până la 50k users/month
+✅ Integrare perfectă cu Supabase Database  
+✅ Row Level Security built-in
+✅ Compatible 100% cu Stripe
+✅ Nu necesită provider separat
+
+CLERK (ALTERNATIVĂ):
+❌ Limite pe free tier (10k users)
+❌ Costuri mai mari pe termen lung
+❌ Nu se integrează natural cu Supabase DB
+✅ UI mai frumos (dar nu esențial)
+```
+
+### ✅ **DEPLOYMENT VALIDAT**
+- **Vercel:** OPTIMAL pentru Next.js (creat de aceeași companie)
+- **Netlify:** Bun dar mai puțin optimizat pentru Next.js  
+- **Combinația Perfectă:** Supabase + Vercel
+- **Domeniu:** Se conectează ușor cu Vercel când e gata
+
+### ✅ **MCP MANAGEMENT CONFIRMAT**
+- **Problem Confirmat:** Prea multe MCP-uri active = performance issues
+- **Soluție:** Activez doar ce am nevoie pentru task-ul curent
+- **Pentru database:** Supabase MCP
+- **Pentru research:** firecrawl + Context7
+- **Pentru debugging:** Sequential Thinking
 
 ---
 

@@ -27,12 +27,14 @@ Dacă deschizi un chat nou cu mine, **ÎNTOTDEAUNA** citește prima dată:
 
 ```
 docs/
-├── CURSOR_AI_WORKFLOW.md    # 🤖 Reguli pentru Cursor AI
-├── PROJECT_STATUS.md        # 📊 Progres și status
-├── TECH_STACK.md           # 💻 Stack tehnologic aprobat
-├── IMPLEMENTATION_PLAN.md   # 🚀 Plan detaliat cu milestone-uri
-├── ISSUES.md               # 🐛 Issues și probleme
-└── CHANGES.md              # 📝 Log cu toate schimbările
+├── CURSOR_AI_ULTRA_RULES.md  # 🤖 REGULI PRINCIPALE pentru Cursor AI
+├── CURSOR_SETUP_GUIDE.md     # ⚙️ Setup tehnic Cursor + MCP
+├── PROJECT_STATUS.md         # 📊 Progres și status
+├── TECH_STACK.md            # 💻 Stack tehnologic FINAL
+├── IMPLEMENTATION_PLAN.md    # 🚀 Plan detaliat cu milestone-uri
+├── CLEANUP_PLAN.md          # 🧹 Plan consolidare și anti-duplicare
+├── ISSUES.md                # 🐛 Issues și probleme
+└── CHANGES.md               # 📝 Log cu toate schimbările
 ```
 
 ## 🛠️ TEHNOLOGII FOLOSITE (UPDATED!)
