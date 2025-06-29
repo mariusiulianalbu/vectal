@@ -247,3 +247,25 @@ Observații suplimentare
 - **Setup Tasks:** 1
 
 **Last Updated:** 3 ianuarie 2025, 15:00 
+
+### 19 Ianuarie 2025 - Sesiunea 2
+**✅ CONFIGURARE CURSOR RULES**
+- **Ce s-a făcut:**
+  - Identificat problemă: documentația era în `docs/` în loc de `.cursor/rules/`
+  - Creat structura corectă `.cursor/rules/` cu subfoldere organizate
+  - Migrat de la `.md` la `.mdc` (format Cursor Rules cu frontmatter YAML)
+  - Creat 4 exemple de rules:
+    - `always/pre-implementation-validation.mdc` - validare obligatorie
+    - `always/teaching-mode-marius.mdc` - explicații pentru beginner
+    - `project/typescript-nextjs-standards.mdc` - auto-attach pentru TS files
+    - `project/supabase-integration.mdc` - agent rule pentru Supabase
+  - Creat `.cursorrules` pentru legacy compatibility
+  - Documentat în `.cursor/README.md` și `docs/MIGRATE_TO_CURSOR_RULES.md`
+
+- **Învățături:**
+  - Cursor Rules TREBUIE să fie în `.cursor/rules/` cu extensia `.mdc`
+  - Frontmatter YAML controlează când se aplică rules
+  - 4 tipuri: Always, Auto-attached, Agent, Manual
+  - Rules pot referenția docs cu @docs/filename.md
+
+- **Status:** ✅ Completat

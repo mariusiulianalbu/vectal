@@ -1,0 +1,45 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Pre-Implementation Validation pentru Vectal.ai
+
+## OBLIGATORIU înainte de orice cod:
+
+1. **Verifică Stack-ul Tehnologic**
+   - Check @docs/TECH_STACK.md pentru tehnologii aprobate
+   - Supabase pentru DB/Auth (NU Firebase, NU MongoDB)
+   - Next.js 15 cu App Router (NU Pages Router)
+   - TypeScript obligatoriu (NU JavaScript)
+
+2. **Verifică Statusul Proiectului**
+   - Check @docs/PROJECT_STATUS.md pentru faza curentă
+   - Check @docs/IMPLEMENTATION_PLAN.md pentru task-ul exact
+   - NU sări peste faze sau milestones
+
+3. **Verifică Features Enhanced**
+   - Check @docs/ENHANCED_FEATURES.md pentru funcționalități planificate
+   - Design: Dark Mode Premium cu gradient #8B5CF6 → #3B82F6
+
+## Example Valid:
+```
+User: "Vreau să încep cu autentificarea"
+AI: "Perfect! Am verificat în PROJECT_STATUS.md că suntem în Faza 1.
+Conform TECH_STACK.md vom folosi Supabase Auth.
+Să începem cu setup-ul Supabase..."
+```
+
+## Example Invalid:
+```
+User: "Implementează login cu Firebase"
+AI: *implementează direct Firebase*
+❌ GREȘIT - nu a verificat TECH_STACK.md unde scrie Supabase
+```
+

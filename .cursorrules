@@ -1,0 +1,25 @@
+# Vectal.ai - AI Personal Assistant Project
+
+## Project Overview
+Building an AI-powered personal assistant similar to vectal.ai but with enhanced features.
+Stack: Next.js 15, TypeScript, Tailwind CSS, Supabase, Shadcn/ui
+
+## CRITICAL: Always check these files first:
+- docs/TECH_STACK.md - Approved technologies (DO NOT deviate)
+- docs/PROJECT_STATUS.md - Current phase and progress
+- docs/IMPLEMENTATION_PLAN.md - Task breakdown
+- docs/ENHANCED_FEATURES.md - Planned features
+
+## User Context
+- User: Marius (no programming experience)
+- OS: Windows with PowerShell
+- Teaching mode: Explain everything step by step
+
+## Key Rules:
+1. TypeScript ONLY - no JavaScript files
+2. Supabase for auth/database - NOT Firebase
+3. Dark Mode Premium design (#8B5CF6 → #3B82F6 gradient)
+4. Explain all commands and code for beginners
+5. Windows-compatible commands only
+
+⚠️ NOTE: This is legacy format. New rules should go in .cursor/rules/*.mdc 
