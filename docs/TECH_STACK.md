@@ -17,12 +17,12 @@
 
 ### 🔧 BACKEND
 - **API:** Next.js API Routes (full-stack în același proiect)
-- **ORM:** Prisma 
-- **Baza de Date:** SQLite (dezvoltare) → PostgreSQL (producție)
-- **Autentificare:** NextAuth.js
+- **Database Platform:** Supabase (PostgreSQL + Auth + Real-time + Storage)
+- **Autentificare:** Supabase Auth (built-in)
 - **Validare:** Zod schemas
+- **MCP Integration:** @supabase/mcp-server-supabase pentru Cursor AI
 
-**De ce:** Totul într-un proiect, ușor de înțeles pentru începători
+**De ce:** Platform complet, MCP support nativ, perfect pentru începători, production-ready din start
 
 ### 🤖 AI INTEGRATIONS
 - **OpenAI:** SDK oficial pentru GPT models

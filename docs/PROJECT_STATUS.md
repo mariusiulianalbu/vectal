@@ -22,18 +22,18 @@
 ### 🏗️ FAZA 1: FUNDAȚIILE (0/6)
 - [ ] Setup proiect Next.js cu TypeScript
 - [ ] Configurare Tailwind CSS și Shadcn/ui  
-- [ ] Setup baza de date cu Prisma
-- [ ] Autentificare cu NextAuth.js
+- [ ] Setup Supabase (Database + Auth + MCP)
+- [ ] Configurare Supabase Auth
 - [ ] Layout de bază și navigație
 - [ ] Conectare cu GitHub
 
 **Status:** 🔴 Nu a început
 
 ### 🛠️ FAZA 2: CORE FEATURES (0/5)
-- [ ] Management API keys (secure storage)
-- [ ] AI Chat interface
+- [ ] Management API keys (Supabase storage securizat)
+- [ ] AI Chat interface cu MCP integration
 - [ ] Integrări cu OpenAI, Claude, Gemini
-- [ ] Task CRUD operations
+- [ ] Task CRUD operations (Supabase real-time)
 - [ ] Categorii și priorități pentru taskuri
 
 **Status:** 🔴 Nu a început

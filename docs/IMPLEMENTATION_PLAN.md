@@ -33,21 +33,23 @@
 
 **🎯 Rezultat:** Proiect Next.js funcțional local
 
-### 📋 MILESTONE 1.3: Baza de Date (Ziua 3)
-- [ ] **1.3.1** Setup Prisma
-- [ ] **1.3.2** Schema SQLite pentru dezvoltare
-- [ ] **1.3.3** First migration
-- [ ] **1.3.4** Test conexiune DB
+### 📋 MILESTONE 1.3: Supabase Setup (Ziua 3)
+- [ ] **1.3.1** Creare cont și proiect Supabase
+- [ ] **1.3.2** Setup environment variables (.env.local)
+- [ ] **1.3.3** Instalare și configurare Supabase client
+- [ ] **1.3.4** Configurare Supabase MCP pentru Cursor
+- [ ] **1.3.5** Test conexiune și first query
 
-**🎯 Rezultat:** Baza de date funcțională
+**🎯 Rezultat:** Supabase integrat cu MCP support
 
-### 📋 MILESTONE 1.4: Autentificare (Ziua 4)
-- [ ] **1.4.1** Setup NextAuth.js
-- [ ] **1.4.2** Google OAuth provider
-- [ ] **1.4.3** Login/logout pages
-- [ ] **1.4.4** Session management
+### 📋 MILESTONE 1.4: Supabase Auth (Ziua 4)
+- [ ] **1.4.1** Configurare Supabase Auth providers (Google, GitHub)
+- [ ] **1.4.2** Setup Supabase Auth în Next.js
+- [ ] **1.4.3** Login/logout pages cu Supabase UI
+- [ ] **1.4.4** Session management cu Supabase
+- [ ] **1.4.5** Middleware de protecție route-uri
 
-**🎯 Rezultat:** Sistem de login funcțional
+**🎯 Rezultat:** Autentificare Supabase funcțională
 
 ### 📋 MILESTONE 1.5: Layout Principal (Ziua 5-7)
 - [ ] **1.5.1** Root layout cu Tailwind
@@ -63,13 +65,13 @@
 ## 🛠️ FAZA 2: CORE FEATURES (Săptămâna 2-3)
 
 ### 📋 MILESTONE 2.1: API Keys Management (Ziua 8-9)
-- [ ] **2.1.1** Schema DB pentru API keys
-- [ ] **2.1.2** Encryption pentru storage
-- [ ] **2.1.3** CRUD API endpoints
-- [ ] **2.1.4** UI pentru management
-- [ ] **2.1.5** Test conexiuni AI
+- [ ] **2.1.1** Schema Supabase pentru API keys (Row Level Security)
+- [ ] **2.1.2** Encryption pentru storage cu Supabase Vault
+- [ ] **2.1.3** CRUD operations cu Supabase client
+- [ ] **2.1.4** UI pentru management cu real-time updates
+- [ ] **2.1.5** Test conexiuni AI cu MCP integration
 
-**🎯 Rezultat:** Sistem sigur pentru API keys
+**🎯 Rezultat:** Sistem sigur pentru API keys cu Supabase
 
 ### 📋 MILESTONE 2.2: AI Chat Interface (Ziua 10-12)
 - [ ] **2.2.1** Chat UI cu Shadcn components

@@ -16,9 +16,9 @@
 Dacă deschizi un chat nou cu mine, **ÎNTOTDEAUNA** citește prima dată:
 
 1. **`docs/CURSOR_AI_ULTRA_RULES.md`** - 🚨 REGULI STRICTE OBLIGATORII!
-2. **`docs/CURSOR_AI_WORKFLOW.md`** - Workflow-ul complet
+2. **`docs/CURSOR_SETUP_GUIDE.md`** - 🎯 GHID COMPLET CURSOR + MCP
 3. **`docs/PROJECT_STATUS.md`** - Progresul curent
-4. **`docs/TECH_STACK.md`** - Stack tehnologic aprobat
+4. **`docs/TECH_STACK.md`** - Stack tehnologic FINAL (Supabase)
 5. **`docs/IMPLEMENTATION_PLAN.md`** - Planul detaliat
 
 **Nu începe niciun task fără să citești aceste fișiere!**
@@ -35,14 +35,14 @@ docs/
 └── CHANGES.md              # 📝 Log cu toate schimbările
 ```
 
-## 🛠️ TEHNOLOGII FOLOSITE
+## 🛠️ TEHNOLOGII FOLOSITE (UPDATED!)
 
 - **Frontend:** Next.js 15 + TypeScript + Tailwind CSS
-- **Backend:** Next.js API Routes + Prisma + SQLite
-- **AI:** OpenAI, Claude, Gemini integrations  
-- **Auth:** NextAuth.js
-- **Deploy:** Vercel
-- **Tools:** Cursor AI + MCP tools
+- **Backend:** Next.js API Routes + **Supabase** (Database + Auth + Real-time)
+- **AI:** OpenAI, Claude, Gemini integrations + **MCP Support**
+- **Auth:** **Supabase Auth** (built-in, nu mai avem nevoie de NextAuth)
+- **Deploy:** Vercel + Supabase (production-ready)
+- **Tools:** Cursor AI + MCP tools (incl. Supabase MCP)
 
 ## 🎯 FEATURES PRINCIPALE
 
@@ -129,7 +129,7 @@ npm run dev
 - **Repository:** https://github.com/mariusiulianalbu/vectal.git
 - **Inspirație:** https://www.vectal.ai/
 - **Next.js Docs:** https://nextjs.org/docs
-- **Prisma Docs:** https://www.prisma.io/docs
+- **Supabase Docs:** https://supabase.com/docs
 - **Tailwind CSS:** https://tailwindcss.com/docs
 
 ---
